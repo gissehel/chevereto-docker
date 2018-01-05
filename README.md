@@ -1,11 +1,11 @@
 [cheveretourl]: https://chevereto.com/
 [cheveretogithub]: https://github.com/Chevereto/Chevereto-Free
-[createdbscript]: https://raw.githubusercontent.com/hannah98/chevereto-docker/master/create_database.sh
+[createdbscript]: https://raw.githubusercontent.com/gissehel/chevereto-docker/master/create_database.sh
                   
 
 [![chevereto](http://chevereto.com/app/themes/v3/img/chevereto-blue.svg)][cheveretourl]
 
-# furiousgeorge/chevereto
+# gissehel/chevereto
 
 [Chevereto][cheveretourl] is a powerful and fast image hosting script that allows you to create your very own full featured image hosting website in just minutes.
 
@@ -14,7 +14,7 @@ This docker image was created from the [Chevereto-Free github repository][chever
 ## Example Usage
 
 ```
-docker run -it --name chevereto -d --link mysql:mysql -p 80:80 -v "$PWD/chevereto":/var/www/html furiousgeorge/chevereto
+docker run -it --name chevereto -d --link mysql:mysql -p 80:80 -v "$PWD/chevereto":/var/www/html gissehel/chevereto
 ```
 
 ### Parameter explanation

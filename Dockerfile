@@ -1,5 +1,6 @@
-FROM php:5-apache
-MAINTAINER furiousgeorge <furiousgeorgecode@gmail.com>
+FROM php:5.6-apache
+# MAINTAINER furiousgeorge <furiousgeorgecode@gmail.com>
+MAINTAINER Gissehel <public-docker-maintainer-chevereto@gissehel.org>
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV LC_ALL C.UTF-8
